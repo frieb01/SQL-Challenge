@@ -43,7 +43,7 @@ CREATE TABLE "dept_manager" (
 
 CREATE TABLE "salaries" (
     "emp_no" INT   NOT NULL,
-    "salary" INT   NOT NULL
+    "salary" MONEY   NOT NULL
 );
 
 ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title" FOREIGN KEY("emp_title")
